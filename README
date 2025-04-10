@@ -7,6 +7,9 @@ el32859/ml-housing-api
 **Docker Run:**
 docker run -it --rm -p 5000:5000 el32859/ml-housing-api
 
+**Docker Compose:**
+docker compose up
+
 **How to use model:**
 Model File: Stored at models/best_damage_classification_model.keras
 Input: A JPEG/PNG image of a building after a hurricane.
