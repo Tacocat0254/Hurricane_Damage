@@ -2,6 +2,7 @@
 el32859/ml-housing-api
 
 **Docker Build:**
+Make sure to be in models directory.
  docker build -t el32859/ml-housing-api .
 
 **Docker Run:**
