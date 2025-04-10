@@ -4,4 +4,4 @@ services:
     inference-server:
      image: el32859/ml-housing-api:latest
      ports:
-      - "5001:5000"
+      - "5000:5000"
