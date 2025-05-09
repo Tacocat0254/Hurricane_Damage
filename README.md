@@ -33,6 +33,8 @@ A more complex CNN with additional convolutional layers and dropout for regulari
 - **Dense Layer**: 512 units with ReLU activation and L2 regularization
 - **Output Layer**: 1 unit with sigmoid activation
 
+Referencing this paper:  https://arxiv.org/pdf/1807.01688.pdf
+
 <H2>Results Summary</H2>
 | Model               | Training Accuracy | Validation Accuracy | 
 | ------------------- | ----------------- | ------------------- |
