@@ -59,7 +59,7 @@ or
 docker compose up
 ```
 
-<H3>How to use model:</H3>
+<H2>How to use model:</H2>
 Model File: Stored at models/best_damage_classification_model.keras
 
 Input: A JPEG/PNG image of a building after a hurricane.
