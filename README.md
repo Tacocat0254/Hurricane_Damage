@@ -33,6 +33,8 @@ A more complex CNN with additional convolutional layers and dropout for regulari
 - **Dense Layer**: 512 units with ReLU activation and L2 regularization
 - **Output Layer**: 1 unit with sigmoid activation
 
+  
+<H2>Running the Docker Image</H2>
 <H3>Docker Image Name:</H3>
 
 ```
