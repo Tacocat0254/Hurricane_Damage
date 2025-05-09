@@ -1,19 +1,23 @@
 <H3>Docker Image Name:</H3>
+
 ```
-el32859/ml-housing-api`
+el32859/ml-housing-api
 ```
 
 <H3>Docker Build:</H3>
 Make sure to be in models directory.
+
 ```
 docker build -t el32859/ml-housing-api .
 ```
 
 <H3>Docker Run:</H3>
+
 ```
 docker run -it --rm -p 5000:5000 el32859/ml-housing-api
 ```
 or
+
 ```
 docker compose up
 ```
