@@ -22,6 +22,7 @@ This will start the API at http://localhost:5000.
 <H3>API Endpoints:</H3>
 Provides basic model information: curl http://localhost:5000/summary
 Response should look like this:
+
 ```
 {
   "version": "v4",
@@ -30,9 +31,11 @@ Response should look like this:
   "output_labels": ["damage", "no_damage"]
 }
 ```
+
 Accepts an image and returns a prediction: curl -X POST http://localhost:5000/inference \
 ```  -F "image=@no_damage.jpeg"```
 Response should look like this:
+
 ```
 {
   "prediction": "Damage",
