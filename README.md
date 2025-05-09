@@ -32,9 +32,9 @@ Response should look like this:
 }
 ```
 
-Accepts an image and returns a prediction: curl -X POST http://localhost:5000/inference \
+Accepts an image and returns a prediction: 
 ```
--F "image=@no_damage.jpeg"
+curl -X POST http://localhost:5000/inference /-F "image=@no_damage.jpeg"
 ```
 
 Response should look like this:
