@@ -36,6 +36,7 @@ A more complex CNN with additional convolutional layers and dropout for regulari
 Referencing this paper:  https://arxiv.org/pdf/1807.01688.pdf
 
 <H2>Results Summary</H2>
+
 | Model               | Training Accuracy | Validation Accuracy | 
 | ------------------- | ----------------- | ------------------- |
 | **ANN**             | 0.77              | 0.71                | 
