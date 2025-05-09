@@ -24,7 +24,9 @@ docker compose up
 
 <H3>How to use model:</H3>
 Model File: Stored at models/best_damage_classification_model.keras
+
 Input: A JPEG/PNG image of a building after a hurricane.
+
 Output: A prediction of "Damage" or "No_Damage" with a confidence score between 0 and 1
 
 <H3>Running the Server:</H3>
